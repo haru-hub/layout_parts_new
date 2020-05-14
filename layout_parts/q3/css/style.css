@@ -1,36 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q3__contents {
+.q3-contents {
   width: 100%;
   table-layout: fixed;
-  border: 1px solid #dedede;
 }
 
-.q3__contents th,
-.q3__contents td {
+.q3-contents th,
+.q3-contents td {
   border: 1px solid #dedede;
   padding: 10px;
 }
 
-.q3__contents th {
+.q3-contents th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.q3__contents td {
+.q3-contents td {
   text-align: center;
   line-height: 22px;
   font-size: 16px;
 }
 
-.q3__contents > tbody > tr:nth-child(even) {
+.q3-contents > tbody > tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.q3__contents > tbody > tr:last-child {
+.q3-contents > tbody > tr:last-child {
   border-top: 2px dashed #000;
 } 
 /* 回答はここに書いてね */
