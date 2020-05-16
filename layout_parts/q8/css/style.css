@@ -1,5 +1,63 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q8 .q8-mein {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  height: 333px;
+  cursor: pointer;
+  overflow: hidden;
+}
 
+.q8-mein-thumb {
+  transition: all .5s;
+}
+
+.q8-comment {
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  
+}
+
+.q8-comment-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  word-break: break-all;
+  width: 100%;
+  box-sizing: border-box;
+  color:#fff;
+}
+
+.q8-mein:hover .q8-mein-thumb {
+  transform: scale(1.5);
+}
+
+.q8-mein:hover .q8-comment {
+  bottom:0;
+}
+
+.q8-read {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: solid 10px #ecf1f2;
+  border-top-color: #00bcd4;
+  animation: q8-read 1.1s linear infinite;
+}
+
+@keyframes q8-read {
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg);}
+}
 /* 回答はここに書いてね */
