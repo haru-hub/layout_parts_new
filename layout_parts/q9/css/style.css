@@ -22,18 +22,18 @@
   content: "";
   width: 0px;
   height: 0px;
-  border-width: 20px 20px 0 20px;
+  border: 20px solid transparent;
 }
 
 .q9-speech-text::before {
-  bottom: -25px;
+  bottom: -45px;
   left: 30px;
-  border-color: #222 transparent transparent transparent;
+  border-top-color: #222;
 }
 
 .q9-speech-text::after {
-  bottom: -18px;
+  bottom: -38px;
   left: 30px;
-  border-color: #fff transparent transparent transparent;
+  border-top-color: #fff
 }
 /* 回答はここに書いてね */

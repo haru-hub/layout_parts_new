@@ -40,7 +40,7 @@
   font-size: 16px;
 }
 
-.q7__inner.is-mein {
+.q7__inner.is-main {
   font-size: 0;
 }
 
@@ -69,16 +69,9 @@
   box-sizing: border-box;
   width: 225px;
 }
-
-.q7 .q7__inner.is-full {
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.q7__inner.is-general {
+.q7--margin.is-feature {
   font-size: 0;
 }
-
 .q7__box.is-fixed {
   display: inline-block;
   width: 300px;
@@ -93,7 +86,7 @@
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
-  margin-left: -305px;
+  margin-left: -300px;
   padding-left: 350px;
 }
 /* 回答はここに書いてね */
